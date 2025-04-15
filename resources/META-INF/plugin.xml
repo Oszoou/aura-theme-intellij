@@ -1,0 +1,51 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>dev.oszoou.aura-theme</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Aura Theme</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="contact@oszoou.dev" url="https://oszoou.dev">Oszoou</vendor>
+
+    <idea-version since-build="241" until-build="243.*"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    <div>
+        <p>Aura Theme for JetBrains IDEs</p>
+        <h2>Install</h2>
+        <p>
+            See
+            <a href="https://github.com/Oszoou/aura-theme-intellij">github.com/Oszoou/aura-theme-intellij</a>.
+        </p>
+        <h2>License</h2>
+        <p>
+            <a href="https://raw.githubusercontent.com/Oszoou/aura-theme-intellij/refs/heads/main/LICENSE">
+                MIT License
+            </a>
+        </p>
+    </div>
+  ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+    <a href="https://raw.githubusercontent.com/Oszoou/aura-theme-intellij/refs/heads/main/CHANGELOG.md">CHANGELOG</>
+  ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="706b7980-0c06-447b-bc31-54540e1992d5" path="/theme/aura-dark.theme.json"/>
+        <themeProvider id="f75003e8-057d-4bae-b3e9-8c63fa9f170c" path="/theme/aura-soft-dark.theme.json"/>
+    </extensions>
+</idea-plugin>
