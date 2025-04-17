@@ -185,27 +185,27 @@
     "NavBar.borderColor": "#23232D",
 
     "Notification": {
-      "background": "#1F1D28",
-      "borderColor": "#57506e",
+      "background": "#1a1721",
+      "borderColor": "#2b2636",
 
-      "errorForeground": "#D0D0D9",
-      "errorBackground": "#4d232e",
-      "errorBorderColor": "#802e44",
+      "errorForeground": "#E0E0E7",
+      "errorBackground": "#3b1a24",
+      "errorBorderColor": "#5a1f33",
 
-      "MoreButton.innerBorderColor": "#23232D",
+      "MoreButton.innerBorderColor": "#14121a",
 
       "ToolWindow": {
-        "informativeForeground": "#D0D0D9",
-        "informativeBackground": "#2e4280",
-        "informativeBorderColor": "#17254d",
+        "informativeForeground": "#E0E0E7",
+        "informativeBackground": "#1f2c5a",
+        "informativeBorderColor": "#111d3a",
 
-        "warningForeground": "#D0D0D9",
-        "warningBackground": "#735822",
-        "warningBorderColor": "#403013",
+        "warningForeground": "#E0E0E7",
+        "warningBackground": "#5c4318",
+        "warningBorderColor": "#2f1e0b",
 
-        "errorForeground": "#D0D0D9",
-        "errorBackground": "#802d43",
-        "errorBorderColor": "#4d1c2b"
+        "errorForeground": "#E0E0E7",
+        "errorBackground": "#5a1f33",
+        "errorBorderColor": "#35121f"
       }
     },
 
