@@ -8,17 +8,19 @@
     <option name="DELETED_LINES_COLOR" value="dfdfe6" />
     <option name="DOCUMENTATION_COLOR" value="2C2C3B" />
     <option name="GUTTER_BACKGROUND" value="21202e" />
-    <option name="INDENT_GUIDE" value="444444" />
+    <option name="INDENT_GUIDE" value="2C2B3A" />
     <option name="LINE_NUMBERS_COLOR" value="828181" />
     <option name="LOOKUP_COLOR" value="2C2C3B" />
     <option name="MODIFIED_LINES_COLOR" value="3e7ab3" />
-    <option name="SELECTED_INDENT_GUIDE" value="444444" />
+    <option name="RIGHT_MARGIN_COLOR" value="3B3A4A" />
+    <option name="SELECTED_INDENT_GUIDE" value="2C2B3A" />
     <option name="SELECTION_BACKGROUND" value="3f3a6b" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="3d223d" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="13223d" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="123624" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="3b301d" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="3d2525" />
+    <option name="VISUAL_INDENT_GUIDE" value="333244" />
     <option name="WHITESPACES" value="444444" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="626273" />
   </colors>
@@ -652,6 +654,12 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="FOLDED_TEXT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b0b0b0" />
+        <option name="BACKGROUND" value="2e2c39" />
+      </value>
+    </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
@@ -668,9 +676,9 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="aa4e00" />
+        <option name="EFFECT_COLOR" value="d17a1c" />
         <option name="ERROR_STRIPE_COLOR" value="b06100" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="GHERKIN_COMMENT">
@@ -1773,9 +1781,9 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4a3f10" />
+        <option name="EFFECT_COLOR" value="d17a1c" />
         <option name="ERROR_STRIPE_COLOR" value="bf8915" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">

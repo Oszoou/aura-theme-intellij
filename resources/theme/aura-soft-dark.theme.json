@@ -2,6 +2,7 @@
   "name": "Aura Soft Dark",
   "author": "Oszoou",
   "dark": true,
+  "parentTheme": "ExperimentalDark",
   "editorScheme": "/aura-soft-dark.scheme.xml",
 
   "ui": {
@@ -85,8 +86,7 @@
         "iconColor": "#9A97A8",
         "disabledIconColor": "#454554",
         "nonEditableBackground": "#3A384D"
-      },
-      "padding": "5,5,5,5"
+      }
     },
 
     "ComboPopup.border": "1,1,1,1,64647A",
@@ -131,12 +131,8 @@
     },
 
     "Editor": {
-      "background": "#1D1D26",
-      "foreground": "#6d6a80",
-      "shortcutForeground": "#6E86FF",
-      "SearchField": {
-        "borderInsets": "6,8,6,8"
-      }
+      "foreground": "#bab8c5",
+      "shortcutForeground": "#6E86FF"
     },
 
     "EditorPane.inactiveBackground": "#2C2C3B",
@@ -163,8 +159,6 @@
       "Rose": "#4a2d59"
     },
 
-    "IdeStatusBar.border": "4,4,4,4",
-
     "InplaceRefactoringPopup.borderColor": "#474359",
 
     "Link": {
@@ -175,7 +169,6 @@
     },
 
     "List": {
-      "rowHeight": 24,
       "hoverBackground": "#00000033",
       "hoverInactiveBackground": "#00000033"
     },
@@ -263,14 +256,8 @@
       "Header.inactiveBackground": "#453A5C",
       "Advertiser": {
         "foreground": "#8785a6",
-        "borderColor": "#4e4b61",
-        "borderInsets": "4,8,3,0"
+        "borderColor": "#4e4b61"
       }
-    },
-
-    "PopupMenu": {
-      "borderWidth": 1,
-      "borderInsets": "4,1,4,1"
     },
 
     "ProgressBar": {
@@ -321,25 +308,20 @@
     "StatusBar.borderColor": "#1a1721",
 
     "TabbedPane": {
-      "contentBorderInsets": "3,1,1,1",
       "underlineColor": "#9649cc",
       "disabledUnderlineColor": "#5e5b6b",
       "contentAreaColor": "#1a1721",
       "hoverColor": "#dfb3ff1a",
-      "focusColor": "#523366",
-      "tabInsets": "5,10,5,10"
+      "focusColor": "#523366"
     },
 
     "TableHeader": {
-      "cellBorder": "4,0,4,0",
       "background": "#363445",
       "separatorColor": "#1a1721",
       "bottomSeparatorColor": "#282430"
     },
 
     "Table": {
-      "cellNoFocusBorder": "10,5,10,5",
-      "focusCellHighlightBorder": "10,5,10,5",
       "stripeColor": "#323242",
       "hoverBackground": "#00000028",
       "gridColor": "#1a1721"

@@ -8,17 +8,19 @@
     <option name="DELETED_LINES_COLOR" value="dfdfe6" />
     <option name="DOCUMENTATION_COLOR" value="0d0c10" />
     <option name="GUTTER_BACKGROUND" value="15141b" />
-    <option name="INDENT_GUIDE" value="2d2d2d" />
+    <option name="INDENT_GUIDE" value="1F1F25" />
     <option name="LINE_NUMBERS_COLOR" value="828181" />
     <option name="LOOKUP_COLOR" value="0d0c10" />
     <option name="MODIFIED_LINES_COLOR" value="3e7ab3" />
-    <option name="SELECTED_INDENT_GUIDE" value="2d2d2d" />
+    <option name="RIGHT_MARGIN_COLOR" value="2A2A30" />
+    <option name="SELECTED_INDENT_GUIDE" value="1F1F25" />
     <option name="SELECTION_BACKGROUND" value="3f3a6b" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="3d223d" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="13223d" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="123624" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="3b301d" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="3d2525" />
+    <option name="VISUAL_INDENT_GUIDE" value="34343C" />
     <option name="WHITESPACES" value="2d2d2d" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="626273" />
   </colors>
@@ -652,6 +654,12 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="FOLDED_TEXT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="a0a0a0" />
+        <option name="BACKGROUND" value="2a292f" />
+      </value>
+    </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
@@ -664,13 +672,6 @@
       <value>
         <option name="FOREGROUND" value="edecee" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="GENERIC_SERVER_ERROR_OR_WARNING">
-      <value>
-        <option name="EFFECT_COLOR" value="f49810" />
-        <option name="ERROR_STRIPE_COLOR" value="b06100" />
-        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="GHERKIN_COMMENT">
@@ -1774,9 +1775,9 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4a3f10" />
+        <option name="EFFECT_COLOR" value="d18a24" />
         <option name="ERROR_STRIPE_COLOR" value="bf8915" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
