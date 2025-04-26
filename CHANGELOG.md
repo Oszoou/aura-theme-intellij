@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Color adjustments (#2)
+
 ## 1.0.2
 
 - Fixed UI spacing
